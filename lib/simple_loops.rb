@@ -34,6 +34,7 @@ def return_string_array(array)
     second_array.push(array[counter].to_s)
     # binding.pry
     counter+=1
-    puts second_array
+
   end
+  return second_array
 end
